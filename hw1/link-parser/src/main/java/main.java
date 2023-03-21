@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        LinkParser parser = new GitHubParser();
-        parser.setNext(new StackOverflowParser());
+        Link parser = new Parsergithub();
+        parser.setNext(new Stackoverflow());
 
         Scanner scanner = new Scanner(System.in);
 

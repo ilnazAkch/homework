@@ -1,6 +1,6 @@
 import java.util.regex.*;
 
-class parsergithub extends LinkParser {
+class Parsergithub extends Link {
     public String parse(String url) {
         Pattern pattern = Pattern.compile("https://github.com/(\\w+)/([\\w-]+)/?");
         Matcher matcher = pattern.matcher(url);
