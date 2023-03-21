@@ -1,5 +1,5 @@
 import java.util.regex.*;
-class stackoverflow extends LinkParser {
+class Stackoverflow extends Link {
     public String parse(String url) {
         Pattern pattern = Pattern.compile("https://stackoverflow.com/questions/(\\d+)/?");
         Matcher matcher = pattern.matcher(url);

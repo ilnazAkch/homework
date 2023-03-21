@@ -1,9 +1,9 @@
 
 
-class link {
-    protected link next = null;
+class Link {
+    protected Link next = null;
 
-    public void setNext(LinkParser parser) {
+    public void setNext(Link parser) {
         this.next = parser;
     }
 
